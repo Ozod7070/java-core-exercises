@@ -8,7 +8,7 @@ public class Begin14 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Aylananing uzunligini kiriting: ");
         double uzunlik = scanner.nextDouble();
-        double radius = uzunlik / (2 * Math.PI);
+        double radius = uzunlik * (2 * Math.PI);
         double yuzasi = radius * radius * Math.PI;
         System.out.println("Aylananing radiusi: "+radius);
         System.out.println("Aylananing yuzasi: "+yuzasi);
